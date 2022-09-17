@@ -1507,13 +1507,13 @@ def node(l1, l2):
         length1 += 1
     while l2.next:
         l2 = l2.next
-        length2 += 1
+        lenth2 += 1
     # 长的链表先走
     if length1 > lenth2:
-        for _ in range(length1 - length2):
+        for _ in range(length1 - lenth2):
             l1 = l1.next
     else:
-        for _ in range(length2 - length1):
+        for _ in range(lenth2 - length1):
             l2 = l2.next
     while l1 and l2:
         if l1.next == l2.next:
