@@ -1,0 +1,18 @@
+FROM python:3.7.8
+
+WORKDIR /data/antwork_backend
+
+RUN apt-get update
+
+COPY requirements.txt ./
+COPY antwork_backend ./
+
+RUN pip install  -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple && mkdir /data/record_log && mkdir /data/logs
+
+CMD /bin/bash
+
+#docker run -it  -v /root/zh/antwork_backend:/data/antwork_backend --name antwork_http -p 7088:7088 todo
+#docker run -it  -v /Users/barin/works/battery/battery_estimate:/code/battery_estimat --name fastapi_testt -p 8001:8001 fastapi_demon1
+#docker run -it  -v /home/xunyi/battery/battery_estimate:/code/battery_estimate --name battery -p 7088:7088
+# -i https://pypi.tuna.tsinghua.edu.cn/simple
+# ps auxww | grep 'daphne' | awk '{print $2}' | xargs kill -9

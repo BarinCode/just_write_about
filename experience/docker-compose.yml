@@ -1,0 +1,37 @@
+version: '3.7'
+services:
+  ant_redis:
+    image: "bitnami/redis:5.0.4"
+    container_name: ant_redis
+    environment:
+      - REDIS_PASSWORD=password123
+    ports:
+      - "6378:6379"
+    networks:
+      - antwork_net
+  ant_mysql:
+    image: "mysql:8.0.27"
+    container_name: ant_mysql
+    volumes:
+      - "./data/mysql_db:/var/lib/mysql"
+      - "./mysql/conf.d:/etc/mysql/conf.d"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3305:3306
+    networks:
+      - antwork_net
+  ant_emqx:
+    image: emqx/emqx
+    container_name: ant_emqx
+    ports:
+      - "1883:1883"
+      - "8083:8083"
+      - "8883:8883"
+      - "8084:8084"
+      - "18083:18083"
+    networks:
+      - antwork_net
+networks:
+  antwork_net:
+    driver: bridge
