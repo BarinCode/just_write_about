@@ -1,0 +1,80 @@
+version: '3.7'
+services:
+  ant_redis:
+    image: "bitnami/redis:5.0.4"
+    container_name: ant_redis
+    environment:
+      - REDIS_PASSWORD=password123
+    networks:
+      - antwork_net
+
+  ant_mysql:
+    image: "mysql:8.0.27"
+    container_name: ant_mysql
+    volumes:
+      - "./data/mysql_db:/var/lib/mysql"
+      - "./mysql/conf.d:/etc/mysql/conf.d"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3305:3306
+    networks:
+      - antwork_net
+
+  ant_emqx:
+    image: emqx/emqx
+    container_name: ant_emqx
+    ports:
+      - "1883:1883"
+      - "8083:8083"
+      - "8883:8883"
+      - "8084:8084"
+      - "18083:18083"
+    networks:
+      - antwork_net
+
+  antwork_http_v3:
+    image: antwork:v3
+    container_name: antwork_http_v3
+
+    ports:
+      - "7077:7077"
+    depends_on:
+      - ant_redis
+      - ant_mysql
+      - ant_emqx
+    networks:
+      - antwork_net
+
+    command: /bin/bash -c "sh /data/start_uwsgi.sh && tail -f /data/start_uwsgi.sh"
+
+  antwork_ws_v3:
+    image: antwork_ws:v3
+    container_name: antwork_ws_v3
+
+    ports:
+      - "7076:7076"
+
+    depends_on:
+      - ant_redis
+      - ant_mysql
+      - ant_emqx
+    networks:
+      - antwork_net
+    command: /bin/bash -c "sh /data/antwork_backend/start_daphne.sh"
+
+  routeplan_v3:
+    image: routeplan:v3
+    container_name: routeplan_v3
+    networks:
+      - antwork_net
+
+    depends_on:
+      - ant_emqx
+
+    command: /bin/bash -c "python start_routeplanning_service.py > data.log  && tail -f ./data.log"
+
+
+networks:
+  antwork_net:
+    driver: bridge
