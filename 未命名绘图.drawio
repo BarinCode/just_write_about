@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-20T01:44:03.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="V0aPOVdFJKkEriwjm_bU" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-20T01:45:14.722Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="plSGDNfA3Qb8ikBArArG" version="20.3.6" type="github">
   <diagram id="fiYvsRGj-Ckr7f4Zjicw" name="第 1 页">
     <mxGraphModel dx="1783" dy="963" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -373,6 +373,9 @@
         </mxCell>
         <mxCell id="DOv8sOopzhsBrgZL_tMY-34" value="电压，电流 数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="691" y="2210" width="105" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DOv8sOopzhsBrgZL_tMY-35" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;电量模型算法，与云端交互逻辑&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="708" y="1706" width="522" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
