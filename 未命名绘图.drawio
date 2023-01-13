@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T08:32:04.946Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="x--TmPqqEqk6Eu1kVPL-" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-13T08:36:29.666Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="o2bewpNmtPxC8Bj0x91b" version="20.8.3" type="github">
   <diagram id="fiYvsRGj-Ckr7f4Zjicw" name="第 1 页">
     <mxGraphModel dx="1369" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -631,7 +631,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="M3KWEk0LP0OEDTh_s7wO-94" value="前端和后端之间采用http交互&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="874" y="5319" width="173" height="26" as="geometry" />
+          <mxGeometry x="876" y="5338" width="173" height="26" as="geometry" />
         </mxCell>
         <mxCell id="M3KWEk0LP0OEDTh_s7wO-96" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -639,8 +639,8 @@
             <mxPoint x="1151" y="5525" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M3KWEk0LP0OEDTh_s7wO-97" value="1、创建航线规划任务&amp;nbsp;&lt;span data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: rgb(54, 65, 53); color: rgb(106, 135, 89); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; --darkreader-inline-bgcolor:#2c3032; --darkreader-inline-color:#a1998d;&quot;&gt;task/create_task&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="758" y="5496" width="261" height="28" as="geometry" />
+        <mxCell id="M3KWEk0LP0OEDTh_s7wO-97" value="1、创建航线规划任务 plan/task/create_task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="764" y="5497" width="249" height="26" as="geometry" />
         </mxCell>
         <mxCell id="M3KWEk0LP0OEDTh_s7wO-98" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="1163" y="5528" width="34" height="59" as="geometry" />
@@ -660,8 +660,8 @@
             <mxPoint x="1146" y="5669" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M3KWEk0LP0OEDTh_s7wO-102" value="3、携带id 对任务进行操作（开始，结束）等，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="777" y="5633" width="265" height="26" as="geometry" />
+        <mxCell id="M3KWEk0LP0OEDTh_s7wO-102" value="3、携带id 对任务进行操作（开始，结束）等，plan/task/control" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="773" y="5629" width="353" height="26" as="geometry" />
         </mxCell>
         <mxCell id="M3KWEk0LP0OEDTh_s7wO-103" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="1166" y="5665" width="34" height="59" as="geometry" />
@@ -684,8 +684,8 @@
             <mxPoint x="1150" y="5790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M3KWEk0LP0OEDTh_s7wO-108" value="5、查询对应的规划任务id信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="768" y="5763" width="178" height="26" as="geometry" />
+        <mxCell id="M3KWEk0LP0OEDTh_s7wO-108" value="5、查询对应的规划任务id信息 plan/task/result/search" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="778" y="5761" width="301" height="26" as="geometry" />
         </mxCell>
         <mxCell id="M3KWEk0LP0OEDTh_s7wO-109" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
