@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T03:21:11.440Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Y3U4s1vzhjGU5B2DOp7K" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T03:25:09.148Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="flkAJEEgyUTsgnE7VDUL" version="21.2.9" type="github">
   <diagram id="fiYvsRGj-Ckr7f4Zjicw" name="第 1 页">
     <mxGraphModel dx="1339" dy="617" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -854,6 +854,15 @@
         </mxCell>
         <mxCell id="lFRbJTZxv7U_qRzLUHuO-34" value="kafka/rabbimq" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1187" y="6802" width="93" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lFRbJTZxv7U_qRzLUHuO-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1288" y="6760" as="sourcePoint" />
+            <mxPoint x="1382" y="6757" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFRbJTZxv7U_qRzLUHuO-36" value="通过指定的queen来区分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="6830" width="147" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
