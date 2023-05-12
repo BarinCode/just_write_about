@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T03:25:09.148Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="flkAJEEgyUTsgnE7VDUL" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T05:37:42.824Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="J13ntpYV41YefJJpXROd" version="21.2.9" type="github">
   <diagram id="fiYvsRGj-Ckr7f4Zjicw" name="第 1 页">
     <mxGraphModel dx="1339" dy="617" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -861,8 +861,8 @@
             <mxPoint x="1382" y="6757" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lFRbJTZxv7U_qRzLUHuO-36" value="通过指定的queen来区分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1295" y="6830" width="147" height="26" as="geometry" />
+        <mxCell id="lFRbJTZxv7U_qRzLUHuO-36" value="通过指定的queue来区数据类型或者通过消息体信息来区分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1299" y="6859" width="327" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
