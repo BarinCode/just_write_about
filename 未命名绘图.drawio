@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T06:07:53.942Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="65sQu0Nw7cb1gjNxtS00" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-06T06:08:30.255Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Qmh4zLqmR0o_NdQZUKsV" version="21.8.0" type="github">
   <diagram id="fiYvsRGj-Ckr7f4Zjicw" name="第 1 页">
     <mxGraphModel dx="1139" dy="585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -906,8 +906,8 @@
             <mxPoint x="1076" y="7348" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GgOW3sfbH2c7iHp6kwc7-13" value="定时轮训。在运单结束之后10分钟内，按对应无人机ID，运单时间戳去获取，截取数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1023" y="7381" width="475" height="26" as="geometry" />
+        <mxCell id="GgOW3sfbH2c7iHp6kwc7-13" value="定时轮训。在运单结束之后10分钟内，按对应无人机ID，运单时间戳去截取，制作播放视频" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1011" y="7381" width="499" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
